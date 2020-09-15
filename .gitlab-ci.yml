@@ -1,0 +1,29 @@
+# stages:
+#     - build
+#     - test
+#     - package
+#     - deploy
+
+# job1:
+#     stage: build
+#     script:
+#         - dotnet build    
+
+# job2:
+#     stage: test
+#     script:
+#         - dotnet test     
+        
+# job3:
+#     stage: package
+#     script:
+#         - cd User.API
+#         - docker-compose build
+#         - docker login -u admin -p lisa https://westos.org/
+#         - docker tag userapi_web westos.org/userapi_web
+#         - docker push westos.org/userapi_web           
+# job4:
+#     stage: deploy
+#     script:
+#         - cd User.API
+#         - docker-compose up -d --build --force-recreate

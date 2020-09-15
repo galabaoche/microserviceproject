@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "User.Identity": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://+:5001",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

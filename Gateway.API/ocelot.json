@@ -1,0 +1,217 @@
+{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/users",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5000
+                }
+            ],
+            "UpstreamPathTemplate": "/users",
+            "UpstreamHttpMethod": [
+                "Get",
+                "Patch"
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "finbook",
+                "AllowedScopes": [
+                    "user_api"
+                ]
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/users/baseinfo/{userid}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5000
+                }
+            ],
+            "UpstreamPathTemplate": "/users/baseinfo/{userid}",
+            "UpstreamHttpMethod": [
+                "Get"
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "finbook",
+                "AllowedScopes": [
+                    "user_api"
+                ]
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/connect/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5001
+                }
+            ],
+            "UpstreamPathTemplate": "/connect/{catchAll}",
+            "UpstreamHttpMethod": [
+                "Post"
+            ]
+        },
+        {
+            "DownstreamPathTemplate": "/.well-known/{catchAll}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5001
+                }
+            ],
+            "UpstreamPathTemplate": "/.well-known/{catchAll}",
+            "UpstreamHttpMethod": [
+                "Get"
+            ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/contacts",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5002
+                }
+            ],
+            "UpstreamPathTemplate": "/contacts",
+            "UpstreamHttpMethod": [
+                "Get"
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "finbook",
+                "AllowedScopes": [
+                    "contact_api"
+                ]
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/contacts/tags",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5002
+                }
+            ],
+            "UpstreamPathTemplate": "/contacts/tags",
+            "UpstreamHttpMethod": [
+                "Put"
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "finbook",
+                "AllowedScopes": [
+                    "contact_api"
+                ]
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/contacts/apply-requests",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5002
+                }
+            ],
+            "UpstreamPathTemplate": "/contacts/apply-requests",
+            "UpstreamHttpMethod": [
+                "Get"
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "finbook",
+                "AllowedScopes": [
+                    "contact_api"
+                ]
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/contacts/apply-request/{userId}",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5002
+                }
+            ],
+            "UpstreamPathTemplate": "/contacts/apply-request/{userId}",
+            "UpstreamHttpMethod": [
+                "Post"
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "finbook",
+                "AllowedScopes": [
+                    "contact_api"
+                ]
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/contacts/approval-request",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5002
+                }
+            ],
+            "UpstreamPathTemplate": "/contacts/approval-request",
+            "UpstreamHttpMethod": [
+                "Put"
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "finbook",
+                "AllowedScopes": [
+                    "contact_api"
+                ]
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/projects",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5003
+                }
+            ],
+            "UpstreamPathTemplate": "/projects",
+            "UpstreamHttpMethod": [
+                "Get",
+                "Post"
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "finbook",
+                "AllowedScopes": [
+                    "project_api"
+                ]
+            }
+        },
+        {
+            "DownstreamPathTemplate": "/api/recommends",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5004
+                }
+            ],
+            "UpstreamPathTemplate": "/recommends",
+            "UpstreamHttpMethod": [
+                "Get"
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "finbook",
+                "AllowedScopes": [
+                    "recommend_api"
+                ]
+            }
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "http://centos8:10000"
+    }
+}

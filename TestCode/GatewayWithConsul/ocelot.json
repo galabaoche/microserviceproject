@@ -1,0 +1,24 @@
+{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/values",
+            "DownstreamScheme": "http",
+            "UpstreamPathTemplate": "/values",
+            "UpstreamHttpMethod": [
+                "Get"
+            ],
+            "ServiceName": "TestConsulApi",
+            "LoadBalancerOptions": {
+                "type": "LeastConnection"
+            },
+            "UseServiceDiscovery": true
+        }
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "http://centos8:4000",
+        "ServiceDiscoveryProvider": {
+            "Host": "localhost",
+            "Port": 8500
+        }
+    }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "profiles": {
+    "TestConsulApi2": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://+:3722",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
