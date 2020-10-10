@@ -20,7 +20,7 @@ namespace User.API.Models
         /// 文件名称
         /// </summary>
         /// <value></value>
-        public string FirstName { get; set; }
+        public string FileName { get; set; }
 
         /// <summary>
         /// 上传的源文件地址
