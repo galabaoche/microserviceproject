@@ -1,0 +1,64 @@
+2020-07-19 04:58:50.916 +08:00 [DBG] Hosting starting
+2020-07-19 04:58:51.042 +08:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-07-19 04:58:51.057 +08:00 [INF] Now listening on: http://localhost:9527
+2020-07-19 04:58:51.058 +08:00 [DBG] Loaded hosting startup assembly TestIntegrationLogging
+2020-07-19 04:58:51.058 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-19 04:58:51.058 +08:00 [INF] Hosting environment: Development
+2020-07-19 04:58:51.058 +08:00 [INF] Content root path: /root/project/microserviceproject/TestIntegrationLogging
+2020-07-19 04:58:51.059 +08:00 [DBG] Hosting started
+2020-07-19 04:59:18.414 +08:00 [INF] Application is shutting down...
+2020-07-19 04:59:18.418 +08:00 [DBG] Hosting stopping
+2020-07-19 04:59:18.455 +08:00 [DBG] Hosting stopped
+2020-07-19 05:05:23.779 +08:00 [DBG] Hosting starting
+2020-07-19 05:05:23.884 +08:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-07-19 05:05:23.901 +08:00 [INF] Now listening on: http://localhost:9527
+2020-07-19 05:05:23.901 +08:00 [DBG] Loaded hosting startup assembly TestIntegrationLogging
+2020-07-19 05:05:23.901 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-19 05:05:23.902 +08:00 [INF] Hosting environment: Development
+2020-07-19 05:05:23.902 +08:00 [INF] Content root path: /root/project/microserviceproject/TestIntegrationLogging
+2020-07-19 05:05:23.902 +08:00 [DBG] Hosting started
+2020-07-19 05:09:29.449 +08:00 [INF] Application is shutting down...
+2020-07-19 05:09:29.454 +08:00 [DBG] Hosting stopping
+2020-07-19 05:09:29.499 +08:00 [DBG] Hosting stopped
+2020-07-19 08:14:17.059 +08:00 [DBG] Hosting starting
+2020-07-19 08:14:17.254 +08:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-07-19 08:14:17.291 +08:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address http://[::]:9527: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Address already in use
+ ---> System.Net.Sockets.SocketException (98): Address already in use
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName) in /_/src/System.Net.Sockets/src/System/Net/Sockets/Socket.cs:line 5111
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress) in /_/src/System.Net.Sockets/src/System/Net/Sockets/Socket.cs:line 738
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP) in /_/src/System.Net.Sockets/src/System/Net/Sockets/Socket.cs:line 703
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass21_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.AnyIPListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2020-07-19 08:14:42.738 +08:00 [DBG] Hosting starting
+2020-07-19 08:14:42.854 +08:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-07-19 08:14:42.872 +08:00 [INF] Now listening on: http://[::]:9526
+2020-07-19 08:14:42.872 +08:00 [DBG] Loaded hosting startup assembly TestIntegrationLogging
+2020-07-19 08:14:42.872 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-19 08:14:42.873 +08:00 [INF] Hosting environment: Development
+2020-07-19 08:14:42.873 +08:00 [INF] Content root path: /root/project/microserviceproject/TestIntegrationLogging
+2020-07-19 08:14:42.873 +08:00 [DBG] Hosting started
+2020-07-19 14:06:42.092 +08:00 [INF] Application is shutting down...
+2020-07-19 14:06:42.092 +08:00 [DBG] Hosting stopping
+2020-07-19 14:06:42.195 +08:00 [DBG] Hosting stopped
+2020-07-19 14:06:49.430 +08:00 [DBG] Hosting starting
+2020-07-19 14:06:49.655 +08:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-07-19 14:06:49.679 +08:00 [INF] Now listening on: http://[::]:9526
+2020-07-19 14:06:49.680 +08:00 [DBG] Loaded hosting startup assembly TestIntegrationLogging
+2020-07-19 14:06:49.680 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-07-19 14:06:49.681 +08:00 [INF] Hosting environment: Development
+2020-07-19 14:06:49.681 +08:00 [INF] Content root path: /root/project/microserviceproject/TestIntegrationLogging
+2020-07-19 14:06:49.681 +08:00 [DBG] Hosting started

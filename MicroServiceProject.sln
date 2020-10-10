@@ -1,43 +1,45 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gateway.API", "Gateway.API\Gateway.API.csproj", "{AA9C36F4-DBA0-40E9-9066-501E41CC3858}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gateway.API", "Gateway.API\Gateway.API.csproj", "{AA9C36F4-DBA0-40E9-9066-501E41CC3858}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8D8518F7-BFAB-4425-9505-89617ABC560F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.API.Tests", "Tests\User.API.Tests\User.API.Tests.csproj", "{420D53D6-8D8C-48B0-860D-90E9E93D5E50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.API.Tests", "Tests\User.API.Tests\User.API.Tests.csproj", "{420D53D6-8D8C-48B0-860D-90E9E93D5E50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.API", "User.API\User.API.csproj", "{C059F859-6002-40B4-AF35-FAC3743727A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.API", "User.API\User.API.csproj", "{C059F859-6002-40B4-AF35-FAC3743727A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User.Identity", "User.Identity\User.Identity.csproj", "{2A99BA43-0A32-41AA-B813-390BCED46D0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "User.Identity", "User.Identity\User.Identity.csproj", "{2A99BA43-0A32-41AA-B813-390BCED46D0B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestCode", "TestCode", "{51CFEDB5-28F6-4DDB-8A73-AD02D4B2261F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayWithConsul", "TestCode\GatewayWithConsul\GatewayWithConsul.csproj", "{0D26993E-FEAF-468E-BDED-132590F0E1BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GatewayWithConsul", "TestCode\GatewayWithConsul\GatewayWithConsul.csproj", "{0D26993E-FEAF-468E-BDED-132590F0E1BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsulApi1", "TestCode\TestConsulApi1\TestConsulApi1.csproj", "{A4D234BD-624D-4CD5-841F-5C2A62C8FA86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsulApi1", "TestCode\TestConsulApi1\TestConsulApi1.csproj", "{A4D234BD-624D-4CD5-841F-5C2A62C8FA86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsulApi2", "TestCode\TestConsulApi2\TestConsulApi2.csproj", "{844BAA5D-11B0-4325-B7CB-9613E321592B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsulApi2", "TestCode\TestConsulApi2\TestConsulApi2.csproj", "{844BAA5D-11B0-4325-B7CB-9613E321592B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsulClient", "TestCode\TestConsulClient\TestConsulClient.csproj", "{28DDB4ED-A81A-447A-B97E-CDC2C7E56AD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsulClient", "TestCode\TestConsulClient\TestConsulClient.csproj", "{28DDB4ED-A81A-447A-B97E-CDC2C7E56AD8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{7405663D-0AD3-47DB-8F8C-917592111EF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resilience", "BuildingBlocks\Resilience\Resilience.csproj", "{FCF7B55E-AF99-49A6-8674-1F3A033D02B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resilience", "BuildingBlocks\Resilience\Resilience.csproj", "{FCF7B55E-AF99-49A6-8674-1F3A033D02B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contact.API", "Contact.API\Contact.API.csproj", "{ADA095BA-C405-4AC9-BDB8-5AAA83F06B20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API", "Contact.API\Contact.API.csproj", "{ADA095BA-C405-4AC9-BDB8-5AAA83F06B20}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{93FA0DC1-573A-46EC-BFED-4A44ECC2C24C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.API", "Project\Project.API\Project.API.csproj", "{17FE812F-DE9F-4563-BCB1-DEA209833586}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.API", "Project\Project.API\Project.API.csproj", "{17FE812F-DE9F-4563-BCB1-DEA209833586}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Domain", "Project\Project.Domain\Project.Domain.csproj", "{A8A91597-2C46-4EAA-A789-B6EE94772EF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Domain", "Project\Project.Domain\Project.Domain.csproj", "{A8A91597-2C46-4EAA-A789-B6EE94772EF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Infrastructure", "Project\Project.Infrastructure\Project.Infrastructure.csproj", "{DDE01FDE-66CF-47A4-B1E1-40C533C4FEFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project.Infrastructure", "Project\Project.Infrastructure\Project.Infrastructure.csproj", "{DDE01FDE-66CF-47A4-B1E1-40C533C4FEFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recommend.API", "Recommend.API\Recommend.API.csproj", "{C744E1E2-4AF5-43E0-A0A4-90EE42EB5B21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recommend.API", "Recommend.API\Recommend.API.csproj", "{C744E1E2-4AF5-43E0-A0A4-90EE42EB5B21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestIntegrationLogging", "TestIntegrationLogging\TestIntegrationLogging.csproj", "{F823193C-8CE6-4406-AAC2-AE82C9D0A653}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,9 +49,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AA9C36F4-DBA0-40E9-9066-501E41CC3858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -220,6 +219,21 @@ Global
 		{C744E1E2-4AF5-43E0-A0A4-90EE42EB5B21}.Release|x64.Build.0 = Release|Any CPU
 		{C744E1E2-4AF5-43E0-A0A4-90EE42EB5B21}.Release|x86.ActiveCfg = Release|Any CPU
 		{C744E1E2-4AF5-43E0-A0A4-90EE42EB5B21}.Release|x86.Build.0 = Release|Any CPU
+		{F823193C-8CE6-4406-AAC2-AE82C9D0A653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F823193C-8CE6-4406-AAC2-AE82C9D0A653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F823193C-8CE6-4406-AAC2-AE82C9D0A653}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F823193C-8CE6-4406-AAC2-AE82C9D0A653}.Debug|x64.Build.0 = Debug|Any CPU
+		{F823193C-8CE6-4406-AAC2-AE82C9D0A653}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F823193C-8CE6-4406-AAC2-AE82C9D0A653}.Debug|x86.Build.0 = Debug|Any CPU
+		{F823193C-8CE6-4406-AAC2-AE82C9D0A653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F823193C-8CE6-4406-AAC2-AE82C9D0A653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F823193C-8CE6-4406-AAC2-AE82C9D0A653}.Release|x64.ActiveCfg = Release|Any CPU
+		{F823193C-8CE6-4406-AAC2-AE82C9D0A653}.Release|x64.Build.0 = Release|Any CPU
+		{F823193C-8CE6-4406-AAC2-AE82C9D0A653}.Release|x86.ActiveCfg = Release|Any CPU
+		{F823193C-8CE6-4406-AAC2-AE82C9D0A653}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{420D53D6-8D8C-48B0-860D-90E9E93D5E50} = {8D8518F7-BFAB-4425-9505-89617ABC560F}
@@ -231,5 +245,8 @@ Global
 		{17FE812F-DE9F-4563-BCB1-DEA209833586} = {93FA0DC1-573A-46EC-BFED-4A44ECC2C24C}
 		{A8A91597-2C46-4EAA-A789-B6EE94772EF7} = {93FA0DC1-573A-46EC-BFED-4A44ECC2C24C}
 		{DDE01FDE-66CF-47A4-B1E1-40C533C4FEFE} = {93FA0DC1-573A-46EC-BFED-4A44ECC2C24C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {042A53FB-A2ED-476D-B3CC-C0699B943DD5}
 	EndGlobalSection
 EndGlobal

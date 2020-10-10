@@ -49,7 +49,7 @@ namespace Project.API.Controllers
         [Route("view/{projectId}")]
         public async Task<ActionResult> ViewProject(int projectId)
         {
-            if (await _recommendService.IsProjectInRecommend(projectId, UserIdentity.UserId))
+            if (!await _recommendService.IsProjectInRecommend(projectId, UserIdentity.UserId))
             {
                 return BadRequest("没有查看此项目的权限");
             }
@@ -68,7 +68,7 @@ namespace Project.API.Controllers
         [Route("join/{projectId}")]
         public async Task<ActionResult> JoinProject([FromBody] ProjectContributor contributor)
         {
-            if (await _recommendService.IsProjectInRecommend(contributor.ProjectId, UserIdentity.UserId))
+            if (!await _recommendService.IsProjectInRecommend(contributor.ProjectId, UserIdentity.UserId))
             {
                 return BadRequest("没有查看此项目的权限");
             }
